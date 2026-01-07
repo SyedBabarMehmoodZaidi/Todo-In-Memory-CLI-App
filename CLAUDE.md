@@ -1,8 +1,10 @@
-# Todo-In-Memory-CLI-App Development Guidelines
+﻿# Todo-In-Memory-CLI-App Development Guidelines
 
 Auto-generated from all feature plans. Last updated: 2026-01-02
 
 ## Active Technologies
+- Python 3.11+ (Backend), TypeScript 5+ (Frontend) + FastAPI, Next.js 16+, SQLModel, Neon PostgreSQL, Better Auth (001-todo-fullstack-webapp)
+- Neon Serverless PostgreSQL database (001-todo-fullstack-webapp)
 
 - Python 3.13+
 - UV (Package Manager)
@@ -36,6 +38,7 @@ main.py                  # Entry point
 - Implement robust input validation (e.g., try-except blocks for numeric input).
 
 ## Recent Changes
+- 001-todo-fullstack-webapp: Added Python 3.11+ (Backend), TypeScript 5+ (Frontend) + FastAPI, Next.js 16+, SQLModel, Neon PostgreSQL, Better Auth
 
 - **001-todo-cli-phase1**: Initial architecture setup with layered design (Model-Service-UI).
 
