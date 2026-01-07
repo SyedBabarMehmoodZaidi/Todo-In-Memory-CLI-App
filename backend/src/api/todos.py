@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, Query
 from sqlmodel import Session
 from typing import List, Optional
 from uuid import UUID
-from ..database import get_session
+from ..database.session import get_session
 from ..models import Todo
 from ..schemas import TodoCreate, TodoUpdate, TodoResponse
 from ..services.todo_service import (

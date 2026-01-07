@@ -3,7 +3,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from sqlmodel import Session
 from typing import Annotated
 from datetime import timedelta
-from ..database import get_session
+from ..database.session import get_session
 from ..models import User
 from ..schemas import UserCreate, UserResponse, Token
 from ..auth.utils import verify_password, get_password_hash
